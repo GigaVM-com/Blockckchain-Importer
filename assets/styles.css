@@ -1,0 +1,116 @@
+/* Add inert handling */
+[inert] {
+    pointer-events: none;
+    cursor: default;
+}
+
+[inert] * {
+    pointer-events: none !important;
+    user-select: none !important;
+}
+
+/* Remove aria-hidden handling since we're using inert instead */
+/* [aria-hidden="true"] {
+    display: none !important;
+} */
+
+/* Existing styles remain unchanged */
+:root {
+    color-scheme: dark;
+    --bs-body-color: #dee2e6;
+    --bs-body-bg: #212529;
+}
+
+body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+.card {
+    background-color: #2c3338;
+    border-color: #444;
+}
+
+.form-control {
+    background-color: #1a1a1a;
+    border-color: #444;
+    color: #dee2e6;
+}
+
+.form-control:focus {
+    background-color: #1a1a1a;
+    border-color: #666;
+    color: #dee2e6;
+}
+
+#output-box {
+    height: 200px;
+    overflow-y: auto;
+    background: #1a1a1a;
+    color: #00ff00;
+    font-family: monospace;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #444;
+}
+
+.progress {
+    height: 25px;
+    background-color: #2c3338;
+}
+
+.text-muted {
+    color: #8f959b !important;
+}
+
+.btn-group .btn {
+    border-color: #444;
+}
+
+#sync-speed, #sync-eta {
+    transition: color 0.3s ease;
+}
+
+#sync-speed.text-success {
+    color: #28a745 !important;
+}
+
+.card h2 {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+}
+
+.calculating {
+    display: inline-flex;
+    align-items: center;
+}
+
+.calculating::after {
+    content: '...';
+    width: 1.5em;
+    animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: ''; }
+    40% { content: '.'; }
+    60% { content: '..'; }
+    80%, 100% { content: '...'; }
+}
+
+/* Login specific styles */
+.login-form {
+    max-width: 400px;
+    width: 90%;
+    padding: 2rem;
+    background: #2c3338;
+    border-radius: 8px;
+}
+
+/* Full height centered layout */
+.full-height-center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,6 +1,6 @@
-MIT License
+MIT License (Modified)
 
-Copyright (c) 2025 GigaVM.com
+Copyright 2025 GigaVM.com / CharityHost.org / ExavtVM.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11,6 +11,12 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+Additionally, the following requirements apply:
+
+1.  **Credit Display:** Any application, software, or product that incorporates or utilizes this Software, in whole or in part, and displays content within a webview or similar embedded browser environment, must visibly display the copyright notice and credit to the original copyright holder within that webview or embedded browser environment. The credit must be persistently displayed in a manner that is easily accessible to the end-user.
+
+2.  **Document Attribution:** Any documentation, reports, or other written materials that are created using or referencing this Software, in whole or in part, must include the copyright notice and credit to the original copyright holder.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
