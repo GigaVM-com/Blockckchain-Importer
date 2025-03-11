@@ -39,6 +39,10 @@ There is a CLI file import_blockchain.php that can be ran from terminal using ph
 - PHP Extension: sysinfo (for enhanced system monitoring)
 - PHP Extension: gmp (for improved mathematical operations)
 - Redis (for enhanced caching)
+- PHP Functions:
+  - shell_exec (for I/O wait monitoring)
+- System Tools:
+  - sysstat package (for iostat command)
 
 ## Tested Environment
 - Ubuntu 24.04 2 core 4gb ram 2tb standard hdd
